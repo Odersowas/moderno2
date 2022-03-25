@@ -44,6 +44,15 @@
 }
 
 @font-face {
+  font-family: 'OpenSans', sans-serif;
+  src: url(../fonts/OpenSans.woff2) format('woff2');
+  src: url(../fonts/OpenSans.woff) format('woff');
+  src: url(../fonts/OpenSans.ttf) format('ttf');
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
   font-family: 'icomoon';
   src:  url('../fonts/icomoon.eot?uxhcou');
   src:  url('../fonts/icomoon.eot?uxhcou#iefix') format('embedded-opentype'),
