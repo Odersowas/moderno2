@@ -46,6 +46,8 @@ function scripts() {
     'node_modules/mixitup/dist/mixitup.js',
     'node_modules/rateyo/src/jquery.rateyo.js',
     'node_modules/ion-rangeslider/js/ion.rangeSlider.js',
+    'node_modules/@fancyapps/ui/dist/fancybox.umd.js',
+    
     'app/js/main.js'
   ])
   .pipe(concat('main.min.js'))
@@ -59,6 +61,7 @@ function styles() {
     'node_modules/slick-carousel/slick/slick.css',
     'node_modules/rateyo/src/jquery.rateyo.css',
     'node_modules/ion-rangeslider/css/ion.rangeSlider.css',
+    'node_modules/@fancyapps/ui/dist/fancybox.css',
     // 'node_modules/magnific-popup/dist/magnific-popup.css', 
     //problems with popup.css
     'app/scss/**/*.scss',
